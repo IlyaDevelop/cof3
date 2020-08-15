@@ -1,0 +1,627 @@
+@font-face { 
+    font-family: 'Open Sans Condesned'; 
+    src: url('fonts/open sans/OpenSansCondensed-Bold.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+         url('webfont.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Open Sans'; 
+    src: url('webfont.woff2') format('woff2'), 
+         url('fonts/Open_Sans (1)/OpenSans-Regular.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+         url('webfont.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Oswald'; 
+    src: url('webfont.woff2') format('woff2'), 
+         url('fonts/Oswald/Oswald-VariableFont_wght.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+         url('webfont.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face { 
+    font-family: 'Montserrat'; 
+    src: url('webfont.woff2') format('woff2'), 
+         url('fonts/montsserat/Montserrat-Regular.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+         url('webfont.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+@media (max-width: 768px){
+    .reasons{
+        display: flex;
+        justify-content: center;
+    }
+    .burger{
+        margin-top: -120px;
+        display: block;
+    }
+    span{
+        display: block !important;
+    }
+    .list li{
+        display: none;
+    } 
+    .drinks{
+        background-color: #250100;
+        min-height: 1195px;
+        min-width: 320px;
+        height: 1195px;
+        /* Set up proportionate scaling */
+        width: 320px;
+        /* Set up positioning */
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        margin-left: -8px;
+        margin-top: 100px;
+    }
+    .discount{
+        margin-left: 900px;
+    }
+    footer{
+        background-color: #250100;
+        min-height: 1185px;
+        min-width: 320px;
+        height: 1195px;
+        /* Set up proportionate scaling */
+        width: 320px;
+        /* Set up positioning */
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        margin-left: -8px;
+        margin-top: 100px;
+    }
+    .col1{
+        margin-top: 27px;
+    }
+    .col2{
+        margin-top: 27px;
+        margin-left: 70px !important;
+    }
+    .col3{
+        margin-top: 27px;
+        margin-left: 70px !important;
+    }
+    .header-img{
+        margin-top: 70px;
+        z-index: -10;
+        margin-left: 100px;
+    }
+    .header-title p {
+        margin-top: 160px !important;
+    }
+    .callback{
+        margin-top: 520px !important;
+    }
+    .header-content{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 375px){
+    .header-img{
+        margin-top: 70px;
+        z-index: -10;
+        width: 400px !important;
+        margin-left: 50px;
+    }
+    .header-content{
+        margin-left: 0px;
+    }
+    .drinks{
+        max-width: 375px !important;
+        width: 100% !important;
+    }
+    footer{
+        max-width: 375px !important;
+        width: 100% !important;
+    }
+    .reasons{
+        margin-left: 100px !important;
+    }
+    .why{
+        width: 500px;
+    }
+    .coffe_drinks{
+        margin-left: 400px !important;
+        display: flex;
+        flex-direction: column !important;
+    }
+    .col1{
+        max-width: 600px;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 67px;
+    }
+    .col2{
+        max-width: 600px;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .col3{
+        max-width: 600px;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+    .discount{
+        margin-top: 650px;
+        display: flex !important; 
+        flex-direction: column  !important;
+        margin-left: 300px;
+    }
+    .friend_Sale{
+        margin-top: 1560px !important;
+        margin-left: 160px;
+    }
+    .second_sale{
+        margin-top: 60px !important;
+        margin-left: 160px;
+    } 
+    footer{
+        margin-top: 370px !important;
+    }
+    .drink2{
+        margin-top: 0px !important;
+        margin-left: 50px;
+    }
+    .drinks{
+        background-color: #250100;
+        min-height: 1730px !important;
+        min-width: 1823px;
+        height: 1730px !important;
+        /* Set up proportionate scaling */
+        width: 100%;
+        /* Set up positioning */
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        margin-left: -8px;
+        margin-top: 100px;
+    }
+    .drink1{
+        background-color: #3E1814;
+        border: 1px solid #3E1814;
+        width: 4510px !important;
+        height: 450px;
+        border-radius: 12px;
+        color: #FFEAB6;
+    }
+    .the-end{
+        margin-left: 25px !important;
+    }
+    .rules{
+        margin-left: -150px;
+    }
+}
+
+@media(max-width: 320px){
+    .burger{
+        margin-left: 1100px !important;
+    }
+    .header-img img{
+        width: 600px !important;
+        margin-top: 70px;
+    }
+    .leaf{
+        width: 350px;
+    }
+    .reasons{
+        margin-left: -40px !important;
+        margin-top: -460px !important;
+    }
+    .why{
+        margin-left: 250px !important;
+    }
+    .coffe_drinks{
+        margin-left: 280px !important;
+    }
+    .discount{
+        margin-left: 175px;
+    }
+    .foot-logo{
+        margin-top: -16px;
+        position: absolute;
+    }
+    .contact{
+        margin-left: 250px !important;
+        margin-top: 65px;
+    }
+    .polit{
+        margin-top: -33px;
+        margin-left: 1040px !important;
+    }
+    .the-end{
+        margin-left: 45px !important;
+    }
+    .rules{
+        margin-left: -460px !important;
+    }
+}
+
+.burger{
+    width: 50px;
+    height: 35px;
+    cursor: pointer;
+    margin-left: 1400px;
+    position: absolute;
+    margin-top: -87px;
+}
+span{
+    background-color: #000000;
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    display: none;
+}
+.burger-menu{
+    position: absolute;
+}
+.burger-menu1{
+    margin-top: 10px;
+    position: absolute;
+}
+.burger-menu2{
+    margin-top: 20px;
+    position: absolute;
+}
+body{
+    background-color: #FFEAB6;
+}
+.coffe-top{
+    margin-top: -48px;
+    margin-left: 210px;
+    position: absolute;
+}
+.coffe-logo{
+    margin-top: -10px;
+    margin-left: 195px;
+    position: absolute;
+}
+.list li{
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.5;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    word-spacing: 22px;
+    margin-top: 40px;
+    margin-left: 1000px;
+}
+.header-title h1{
+    font-size: 60px;
+    font-family: 'Open Sans Condesned';
+    color: #250100;
+    text-shadow: #c7b198 1px 1px 0, #c7b198 1px 1px 0, #c7b198 1px 1px 0, #c7b198 2px 2px 0, #c7b198 1px 1px 0;
+    line-height: 1.2;
+}
+.header-title p {
+    font-family: "Open Sans";
+    color: #250100;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.buy-coffe{
+    background-color: #B47E6E;
+    border-radius: 9px;
+    font-size: 35px;
+    font-family: 'Open Sans Condesned';
+    width: 315px;
+    height: 81px;
+    border: 1px solid #B47E6E;
+    cursor: pointer;
+    margin-top: 10px;
+    text-shadow: #c7b198 0.2px 0.2px 0, #c7b198 0.2px 0.2px 0, #c7b198 0.2px 0.2px 0, #c7b198 0.2px 0.2px 0, #c7b198 0.2px 0.2px 0;
+}
+.callback{
+    background-color: #B47E6E;
+    border-radius: 9px;
+    font-size: 35px;
+    font-family: 'Open Sans Condesned';
+    width: 315px;
+    height: 81px;
+    border: 1px solid #B47E6E;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 148px;
+    cursor: pointer;
+}
+.header-title{
+    margin-left: 150px;
+    margin-top: 150px;
+    z-index: -10;
+}
+.header-content{
+    display: flex;
+    flex-direction: row;
+}
+.header-img{
+    margin-top: 70px;
+    z-index: -10;
+}
+.we-are{
+    margin-top: 100px;
+}
+.why{
+    font-size: 50px;
+    color: #250100;
+    font-family: "Oswald";
+    margin-left: 300px;
+}
+.leaf{
+    margin-left: -8px;
+    margin-top: -350px;
+}
+.reasons{
+    margin-top: -600px;
+    background: url(img/Group\ 16\ \(2\).png) no-repeat;
+    height: 700px;
+    width: 1400px;
+    position: relative;
+    margin-left: 300px;
+}
+.drinks{
+    background-color: #250100;
+    min-height: 1195px;
+    min-width: 1823px;
+    height: 1195px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    /* Set up positioning */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: 100px;
+}
+.coffe_drinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+.drink1{
+    background-color: #3E1814;
+    border: 1px solid #3E1814;
+    width: 300px;
+    height: 450px;
+    border-radius: 12px;
+    color: #FFEAB6;
+}
+.drink1 {
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.milk{
+    font-family: 'Open Sans Condesned';
+    font-size: 18px;
+    margin-top: 20px;
+}
+.country{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Open Sans';
+    margin-top: 8px;
+}
+.coffe-price{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+.value{
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 15px;
+}   
+.drink2{
+    margin-top: 30px;
+}
+.col1{
+    margin-top: 27px;
+}
+.col2{
+    margin-top: 27px;
+    margin-left: 130px;
+}
+.col3{
+    margin-top: 27px;
+    margin-left: 130px;
+}
+.goods h4{
+    color: #FFEAB6;
+    font-family: 'Open Sans Condesned';
+    font-size: 45px;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: -130px;
+    font-weight: 300;
+}
+.discount{
+    display: flex;
+    flex-direction: row;
+    margin: 100 auto;
+    text-align: center;
+    justify-content: center;
+    height: 1950px;
+}
+.friend_Sale{
+    margin-top: 1460px;
+}
+.second_sale{
+    margin-top: 1460px;
+    margin-left: 160px;
+}
+.sales{
+    margin-top: 1300px;
+    font-size: 40px;
+    color: #250100;
+    font-family: 'Open Sans Condesned';
+    position: absolute;
+    margin-left: -1500px;
+}
+footer{
+    background-color: #250100;
+    min-height: 200px;
+    min-width: 1815px;
+    height: 200px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    color: #FFEAB6;
+}
+.contact-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.phone-number{
+    margin-left: 220px;
+}
+.foot-logo{
+    margin-top: -16px;
+    position: absolute;
+}
+.contact{
+    margin-left: 350px;
+    margin-top: 65px;
+}
+.polit{
+    margin-top: -33px;
+    margin-left: 1170px;
+}
+.the-end{
+    margin-left: 220px;
+}
+.rules{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: #1F0A07;
+}
+a:after{
+    background-color:  #1F0A07;
+    transition: width .3s ease-in-out;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+.modal{
+    background-color: #1F0A07;
+    width: 531px;
+    height: 549px;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 170px;
+    z-index: 10;
+    display: none;
+}
+.modals{
+    display: block;
+}
+/* .modal-overlays{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    min-height: 1500px;
+    min-width: 1440px;
+    height: 4000px;
+    z-index: -5;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -39px;
+} */
+.modal-overlays{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.322);
+    min-height: 1800px;
+    min-width: 1440px;
+    height: 1800px;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -39px;
+    z-index: 1;
+    overflow: hidden;
+}
+.buy p{
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFEAB6;
+    font-family: 'Open Sans';
+    position: absolute;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.close{
+    color: #FFEAB6;
+    font-size: 50px;
+    margin-left: 480px;   
+    cursor: pointer;
+}
+.form{
+    margin-top: 120px;
+    display: flex;
+    margin-left: 65px;
+}
+input{
+    width: 388px;
+    height: 44px;
+    background-color: #FFEAB6;
+    border: 1px solid #FFEAB6;
+    border-radius: 7px;
+}
+.number-input{
+    margin-top: 39px;
+}
+textarea{
+    margin-top: 39px;
+    width: 388px;
+    height: 186px;
+    border-radius: 7px;
+    background-color: #FFEAB6;
+    border: 1px solid #FFEAB6;
+}
+input::placeholder{
+    font-size: 15px;
+    color: #4E4C4C;
+    font-family: "Open Sans";
+}
+textarea::placeholder{
+    font-size: 15px;
+    color: #4E4C4C;
+    font-family: "Open Sans";
+}
+.next img{
+    margin-top: 5px;
+    margin-left: 475px;
+    cursor: pointer;
+}
