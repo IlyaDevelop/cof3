@@ -55,3 +55,30 @@ modal('.callback', '.modal-overlay', '.modal',);
 // btn.addEventListener('click', () => {
 //     modal.classList.add('modals')
 // });
+
+
+const burger = () => {
+    const burgerMenu = document.querySelector('.burger'),
+          menu1 = document.querySelector('.burger-menu'),
+          menu2 = document.querySelector('.burger-menu1'),
+          menu13 = document.querySelector('.burger-menu2'),
+          menuList = document.querySelector('.list-active-burger');
+
+    burgerMenu.addEventListener('click', () => {
+        burgerMenu.classList.toggle('burger-close');
+        menu1.classList.toggle('burger-menu-active'); 
+        menu2.classList.toggle('burger-menu2-active'); 
+        menu13.classList.toggle('burger-menu-active3');
+
+        menu1.classList.toggle('burger-menu');
+        menu2.classList.toggle('burger-menu1');
+        menu13.classList.toggle('burger-menu2');
+        menuList.classList.toggle('list-active-burger');
+
+        menu13.style.display = 'none ';
+
+        
+    });
+};
+
+burger();
